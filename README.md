@@ -13,7 +13,7 @@ python3 -m venv ~/.venvs/datascience
 
 Add to .bashrc:
 ```bash
-alias dsenv="source ~/.venvs/datascience/bin/activate"
+echo 'alias dsenv="source ~/.venvs/datascience/bin/activate"' >> ~/.bashrc
 ```
 
 Install packages:
